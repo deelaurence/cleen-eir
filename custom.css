@@ -1,0 +1,26 @@
+/* custom css styling goes here */
+
+*{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  /* outline: 2px solid red;   */
+}
+
+
+html, body{
+  overflow-x: hidden !important;
+}
+
+.slider-container {
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-wrapper img {
+  width: 100%;
+  height: auto;
+}
