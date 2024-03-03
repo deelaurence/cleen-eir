@@ -42,8 +42,8 @@ const ContentThree = () => {
 
 const Section2 = () => {
   return (
-    <section className='mt-64 relative '>
-        <div className='md:mb-44  flex items-center  border-[18px] border-l-0 border-neutral-300  h-[60vh] md:h-[80vh] w-[80vw] md:w-[70vw]'>
+    <section className='mt-24 md:mt-64 relative '>
+        <div className='md:mb-44  flex items-center  border-[16px] border-l-0 border-neutral-300  h-[60vh] md:h-[80vh] w-[80vw] md:w-[70vw]'>
             <div className='ml-8 md:ml-16  flex gap-4 flex-col'>
                 <h6 className='text-xl text-primaryGreen'> Air Pollution</h6>
                 <p>Discover the key pollutants <br /> 

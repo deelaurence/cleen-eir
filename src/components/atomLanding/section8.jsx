@@ -15,7 +15,7 @@ const section8 = () => {
             </div>
         </div> 
        <div className='w-[40%] '>
-            <img className='h-[50%]' src={greenCaution} alt="" />
+            <img className='' src={greenCaution} alt="" />
         </div> 
     </section>
   )

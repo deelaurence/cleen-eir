@@ -62,8 +62,8 @@ const ContentThree = () => {
 
 const Section4 = () => {
   return (
-    <section className='md:mt-[24rem] relative '>
-        <div className='mb-44 flex items-center p-6 md:p-0 border-[18px]  border-neutral-300  md:h-[130vh] w-[90vw] md:w-[55vw] ml-[5vw] md:ml-16'>
+    <section className='mt-14 md:mt-[24rem] relative '>
+        <div className='md:mb-44 flex items-center p-6 md:p-0 border-[18px]  border-neutral-300  md:h-[130vh] w-[90vw] md:w-[55vw] ml-[5vw] md:ml-16'>
             <div className=' md:ml-16 flex gap-2 p-12 md:p-0 bg-neutral-100 md:bg-transparent flex-col'>
                 <h6 className='text-sm md:text-xl text-primaryGreen'>Services</h6>
                 <h3 className=' md:text-2xl font-semibold'>What we Offer</h3>
@@ -84,7 +84,7 @@ const Section4 = () => {
             <ShadowBox content={<ContentThree/>} ml='ml-16' boxHeight='h-72' boxWidth="w-[40vw]" boxColor="bg-primaryGreen" shadowColor="bg-neutral-500"/>
         </div>
         {/* mobile screen   */}
-        <div className='justify-around md:hidden flex flex-col gap-8  md:h-[160vh] w-[60vw] right-0 -top-20'>
+        <div className='justify-around md:hidden flex flex-col gap-8  w-[60vw] '>
             <ShadowBox content={<ContentOne/>} ml='ml-10' boxHeight='h-44' boxWidth="w-[80vw]" boxColor="bg-primaryGreen" shadowColor="bg-neutral-500"/>
             <ShadowBox content={<ContentTwo/>} ml='ml-16' boxHeight='h-44' boxWidth="w-[80vw]" boxColor="bg-secondaryGreen" shadowColor="bg-neutral-500"/>
             <ShadowBox content={<ContentThree/>} ml='ml-16' boxHeight='h-44' boxWidth="w-[80vw]" boxColor="bg-primaryGreen" shadowColor="bg-neutral-500"/>

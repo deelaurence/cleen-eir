@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Section3 = () => {
   return (
-    <section className=' mt-32 flex flex-col md:flex-row  h-screen w-screen'>
+    <section className='mt-24 md:mt-32 flex flex-col md:flex-row  md:h-screen w-screen'>
         <div className='w-[70%] md:w-[60%] flex items-center  md:h-full'>
             <img src={greenField} alt="" />
         </div>
