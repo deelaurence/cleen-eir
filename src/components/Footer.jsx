@@ -18,7 +18,7 @@ const Footer = () => {
       <div className='gap-12 md:gap-0 flex flex-col md:flex-row justify-between w-[90%] md:w-4/5 '>
         <div className='flex flex-col w-[60%] md:w-[20%] gap-2 '>
         <h1>Clear <span className='text-secondaryGreen'>Air</span></h1>
-        <p>We provide educational
+        <p className='text-sm'>We provide educational
           and health information on
           environmental air pollution</p>
         <div>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-wrap gap-12'>
           <div className='flex ' >
-            <div className=' flex flex-col gap-[4px]'>
+            <div className=' flex flex-col text-xs gap-[4px]'>
               <h3 className='font-medium pb-4 text-lg'>Quick Links</h3>
               <Link>Home</Link>
               <Link>About</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
             <div></div>
           </div>
           <div className='flex ' >
-            <div className=' flex flex-col gap-[4px]'>
+            <div className=' flex flex-col gap-[4px] text-xs'>
               <h3 className='font-medium pb-4 text-lg'>Resources</h3>
               <Link>Blog</Link>
               <Link>Report</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
             <div></div>
           </div>
           <div className='flex ' >
-            <div className=' flex flex-col gap-[4px]'>
+            <div className=' flex flex-col gap-[4px] text-xs'>
               <h3 className='font-medium pb-4 text-lg'>Contact</h3>
               <Link>Adeola Odeku Street,</Link>
               <Link>Victoria island, Lagos</Link>
