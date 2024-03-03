@@ -25,7 +25,7 @@ const Footer = () => {
           <img className='w-[50%]' src={circles} alt="" />  
         </div>  
         </div>
-        <div className='flex flex-wrap gap-12'>
+        <div className='flex flex-wrap  justify-between gap-16 md:gap-12'>
           <div className='flex ' >
             <div className=' flex flex-col text-xs gap-[4px]'>
               <h3 className='font-medium pb-4 text-lg'>Quick Links</h3>
@@ -39,7 +39,7 @@ const Footer = () => {
             <div></div>
           </div>
           <div className='flex ' >
-            <div className=' flex flex-col gap-[4px] text-xs'>
+            <div className=' flex flex-col gap-[4px] text-xs px-8 md:px-0'>
               <h3 className='font-medium pb-4 text-lg'>Resources</h3>
               <Link>Blog</Link>
               <Link>Report</Link>

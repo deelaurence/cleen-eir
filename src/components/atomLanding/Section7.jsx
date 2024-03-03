@@ -69,7 +69,7 @@ const Section7 = () => {
                 return(              
                 <div className='flex flex-col gap-2'>
                     <h3 className='text-xl font-medium'>{single.title}</h3>
-                    <p className='font-semibold'>{single.date}</p>
+                    <p className='opacity-90'>{single.date}</p>
                 </div>
                 )
             })}
